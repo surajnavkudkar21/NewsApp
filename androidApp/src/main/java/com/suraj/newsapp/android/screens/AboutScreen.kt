@@ -1,12 +1,16 @@
-package com.suraj.newsapp.android
+package com.suraj.newsapp.android.screens
 
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.ArrowBack
 import androidx.compose.material3.Divider
 import androidx.compose.material3.ExperimentalMaterial3Api
+import androidx.compose.material3.Icon
+import androidx.compose.material3.IconButton
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.material3.TopAppBar
@@ -18,9 +22,10 @@ import com.suraj.newsapp.Platform
 
 @Composable
 fun AboutScreen(
+    onDismissButtonClicked: () -> Unit
 ) {
     Column {
-        Toolbar()
+        Toolbar(onDismissButtonClicked)
         ContentView()
     }
 }
@@ -28,9 +33,18 @@ fun AboutScreen(
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 private fun Toolbar(
+    onDismissButtonClicked: () -> Unit
 ) {
     TopAppBar(
         title = { Text(text = "About Device") },
+        navigationIcon = {
+            IconButton(onClick = onDismissButtonClicked) {
+                Icon(
+                    imageVector = Icons.Default.ArrowBack,
+                    contentDescription = "Up Button"
+                )
+            }
+        }
     )
 }
 
