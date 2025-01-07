@@ -27,8 +27,7 @@ The UI/Framework layers reside in the native apps, while everything from the Vie
 
 ## Architectural Layers
 
-<img width="531" alt="Screenshot 2023-12-04 at 18 19 53" src="<img width="531" alt="287763244-620fb7ca-68cb-428c-b134-4a012a8836eb" src="https://github.com/user-attachments/assets/9cd1216d-c59a-4c58-9fbb-6a6f1d84cceb" />
-">
+<img width="531" alt="287763244-620fb7ca-68cb-428c-b134-4a012a8836eb" src="https://github.com/user-attachments/assets/9cd1216d-c59a-4c58-9fbb-6a6f1d84cceb" />
 
 
 
