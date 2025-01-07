@@ -1,0 +1,12 @@
+//
+//  Config.xcconfig
+//  iosApp
+//
+//  Created by Suraj Navkudkar on 06/01/25.
+//  Copyright © 2025 orgName. All rights reserved.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+APP_NAME = NewsApp
