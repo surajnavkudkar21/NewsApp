@@ -22,7 +22,7 @@ class ArticlesViewModel(
     private fun getArticles() {
         scope.launch {
 
-            val fetchedArticles = articlesUseCase.getArticles()
+            val fetchedArticles = articlesUseCase.getArticles(false)
 
             _articlesState.emit(ArticlesState(articles = fetchedArticles))
         }

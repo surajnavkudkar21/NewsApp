@@ -342,6 +342,7 @@
 					"$(SRCROOT)/../shared/build/xcode-frameworks/$(CONFIGURATION)/$(SDK_NAME)",
 				);
 				INFOPLIST_FILE = iosApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = NewsApp;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -349,6 +350,11 @@
 				);
 				OTHER_LDFLAGS = (
 					"$(inherited)",
+					"-framework",
+					shared,
+				);
+				"OTHER_LDFLAGS[arch=*]" = (
+					"-lsqlite3",
 					"-framework",
 					shared,
 				);
@@ -371,6 +377,7 @@
 					"$(SRCROOT)/../shared/build/xcode-frameworks/$(CONFIGURATION)/$(SDK_NAME)",
 				);
 				INFOPLIST_FILE = iosApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = NewsApp;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -378,6 +385,11 @@
 				);
 				OTHER_LDFLAGS = (
 					"$(inherited)",
+					"-framework",
+					shared,
+				);
+				"OTHER_LDFLAGS[arch=*]" = (
+					"-lsqlite3",
 					"-framework",
 					shared,
 				);
