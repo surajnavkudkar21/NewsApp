@@ -13,8 +13,10 @@ navigationCompose = "2.8.5"
 koin = "4.0.0"
 sqlDelight = "2.0.0"
 statelyCommon = "2.0.5"
+accompanistSwiperefresh = "0.36.0"
 
 [libraries]
+accompanist-swiperefresh = { module = "com.google.accompanist:accompanist-swiperefresh", version.ref = "accompanistSwiperefresh" }
 androidx-navigation-compose = { module = "androidx.navigation:navigation-compose", version.ref = "navigationCompose" }
 coil-compose = { module = "io.coil-kt.coil3:coil-compose", version.ref = "coilCompose" }
 coil-network-ktor3 = { module = "io.coil-kt.coil3:coil-network-ktor3", version.ref = "coilCompose" }
