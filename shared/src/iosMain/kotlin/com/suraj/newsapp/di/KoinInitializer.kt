@@ -1,6 +1,6 @@
 package com.suraj.newsapp.di
 
-import com.suraj.newsapp.articles.ArticlesViewModel
+import com.suraj.newsapp.articles.presentation.ArticlesViewModel
 import org.koin.core.component.KoinComponent
 import org.koin.core.component.inject
 import org.koin.core.context.startKoin

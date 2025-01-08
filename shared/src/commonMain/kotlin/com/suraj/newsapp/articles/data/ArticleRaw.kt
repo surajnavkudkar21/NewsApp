@@ -1,4 +1,4 @@
-package com.suraj.newsapp.articles
+package com.suraj.newsapp.articles.data
 
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable

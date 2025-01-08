@@ -1,4 +1,4 @@
-package com.suraj.newsapp.articles
+package com.suraj.newsapp.articles.data
 
 import io.ktor.client.*
 import io.ktor.client.call.*

@@ -1,4 +1,4 @@
-package com.suraj.newsapp.articles
+package com.suraj.newsapp.articles.application
 
 data class Article(
     val title: String,

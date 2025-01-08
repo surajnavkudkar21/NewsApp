@@ -1,6 +1,7 @@
-package com.suraj.newsapp.articles
+package com.suraj.newsapp.articles.presentation
 
 import com.suraj.newsapp.BaseViewModel
+import com.suraj.newsapp.articles.application.ArticlesUseCase
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.launch

@@ -1,5 +1,7 @@
-package com.suraj.newsapp.articles
+package com.suraj.newsapp.articles.application
 
+import com.suraj.newsapp.articles.data.ArticleRaw
+import com.suraj.newsapp.articles.data.ArticlesRepository
 import kotlinx.datetime.Clock
 import kotlinx.datetime.Instant
 import kotlinx.datetime.TimeZone

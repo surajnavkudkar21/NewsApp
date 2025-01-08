@@ -12,7 +12,6 @@ import androidx.navigation.compose.rememberNavController
 import com.suraj.newsapp.android.screens.AboutScreen
 import com.suraj.newsapp.android.screens.ArticlesScreen
 import com.suraj.newsapp.android.screens.Screens
-import com.suraj.newsapp.articles.ArticlesViewModel
 
 @Composable
 fun AppScaffold() {
