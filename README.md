@@ -1,3 +1,7 @@
+## iOS and Android App Screenshots
+
+<img width="857" alt="Screenshot 2025-01-08 at 11 21 16 AM" src="https://github.com/user-attachments/assets/495bb1cd-5898-4518-b0ca-f0355b6170ff" />
+
 # NewsApp
 
 NewsApp includes a native Android and a native iOS apps, where the business logic and inftrastructure is shared in a KMP module.
