@@ -35,8 +35,9 @@ The UI/Framework layers reside in the native apps, while everything from the Vie
 
 # License
 
-# This project is licensed under the MIT License. See the LICENSE file for details.
-Acknowledgements
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+# Acknowledgements
 
     News API for providing the news data.
     JetBrains for Kotlin and related tooling.
