@@ -39,6 +39,6 @@ This project is licensed under the MIT License. See the LICENSE file for details
 
 # Acknowledgements
 
-    News API for providing the news data.
-    JetBrains for Kotlin and related tooling.
-    The open-source community for various libraries and inspiration.
+News API for providing the news data.
+JetBrains for Kotlin and related tooling.
+The open-source community for various libraries and inspiration.
